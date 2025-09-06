@@ -1,0 +1,26 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.s2.barber.pro",
+      "sha256_cert_fingerprints": [
+        "E3:15:EB:F8:26:82:18:7E:1B:70:18:BC:D1:FA:A8:76:55:04:83:B5:84:DA:D7:DC:94:71:80:E8:AA:8C:3D:FE"
+      ]
+    },
+    "site": "https://agendabarbeiro.com.br",
+    "paths": ["/app/pro", "/app/pro/*"]
+  },
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.s2.barber.client",
+      "sha256_cert_fingerprints": [
+        "B5:B5:7C:86:AD:18:04:C3:19:6E:1A:A6:78:C8:39:3E:75:18:C9:28:6D:D2:35:0C:C2:D2:A1:26:0B:2A:8E:C8"
+      ]
+    },
+    "site": "https://ibarber.com.br",
+    "paths": ["/app/client", "/app/client/*"]
+  }
+]
